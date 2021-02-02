@@ -10,7 +10,6 @@ body{
 /* mv
 /* ----------------------- */
 .bl_mv_inner{
-  max-width: 1400px;
   height: 400px;
   margin: 0 auto;
   background-color: #fff;
