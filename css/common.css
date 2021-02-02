@@ -1,0 +1,517 @@
+/* ----------------------- */
+/* base
+/* ----------------------- */
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.4rem;
+  letter-spacing: .1em;
+  color: #5F5859;
+  font-family: 'zeitung-micro', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  margin: 0;
+}
+img{
+  width: 100%;
+  vertical-align: bottom;
+}
+a{
+  color: #5F5859;
+  text-decoration: none;
+}
+main{
+  /* background-color: #FAFAFA; */
+  background-color: #FBF9F9;
+}
+p{
+  line-height: 1.8;
+}
+.hamburgerMenu_bg{
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  background-color: rgba(51, 51, 51, 0.5);
+  top: 0;
+  left: 0;
+}
+
+/* btn要素 */
+.el_btn{
+  display: block;
+  transition: .3s;
+  position: relative;
+}
+.el_btn:hover,.ly_header_ttl:hover,.bl_card_works:hover{
+  opacity: 0.7;
+  color: white;
+}
+.el_btn_view:hover{
+  transition: .5s;
+  transform: scale(1.02,1.02);
+  opacity: 0.7;
+  color: white;
+}
+.el_btn_view{
+  width: 202px;
+  height: 59px;
+  margin: 0 auto;
+}
+.btn_profile{
+  width: 240px;
+}
+.el_btn_pagetop{
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  max-width: 60px;
+  z-index: 2;
+}
+.el_btn_pagetop:hover{
+  opacity: 0.7;
+  color: white;
+}
+/* .el_btn_contact{
+  position: fixed;
+  bottom: 30px;
+  left: 40px;
+  max-width: 65px;
+  z-index: 2;
+} */
+/* .el_btn_contact:hover{
+  opacity: 0.7;
+  color: white;
+} */
+/* --------ここまで-------- */
+
+/* その他共通クラス */
+.spacer{
+  width: 100%;
+  height: 20px;
+}
+/* --------ここまで-------- */
+
+/* 全体アニメーション */
+.fade-block {
+  opacity: .5;
+  transform: translateY(10px);
+  transition: all .8s ease-in;
+}
+/* 画面に入った時の動き */
+.fade-block.blockIn {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* header
+/* ----------------------- */
+.ly_header{
+  padding: 25px 3.5vw 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 3;
+  height:76px;
+  border-bottom: 1px solid #DDDDDD;
+  background: rgba(255,255,255,0.8);
+}
+.ly_header_inner{
+  display: flex;
+  justify-content: space-between;
+}
+.ttl_img{
+  width: 200px;
+}
+.bl_btn_trigger{
+  display: none;
+}
+.bl_header_navItem:last-of-type{
+  margin-right: 0;
+}
+.bl_header_nav{
+  display: flex;
+}
+.bl_header_navList{
+  margin-right: 40px;
+  align-items: center;
+}
+.bl_header_navItem{
+  font-size: 1.6rem;
+  margin-right: 40px;
+  position: relative;
+}
+.bl_header_navItem a{
+  display: inline-block;
+  text-decoration: none;
+}
+.bl_header_navItem a::after{
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform .4s;
+}
+.bl_header_navItem a:hover::after{
+  transform: scale(1, 1);
+}
+.ly_header_ttl,.bl_header_navList,.bl_header_snsList{
+  display: flex;
+  justify-content: space-between;
+}
+.el_header_snsItem{
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* mv
+/* ----------------------- */
+.bl_mv_inner{
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+}
+.bl_mv_ttl{
+  font-size: 2.5rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: fadeIn1 4s ease-out 0.1s 1 normal forwards;
+}
+@keyframes fadeIn1{
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+/* --------ここまで-------- */
+
+
+/* ----------------------- */
+/* footer
+/* ----------------------- */
+.ly_footer{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  margin-top: 70px;
+}
+.ly_footer_ttl{
+  max-width: 275px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 25px;
+}
+.bl_footer_navItem:last-of-type{
+  margin-right: 0;
+}
+.bl_footer_navItem{
+  font-size: 1.6rem;
+  display: inline-block;
+  margin-right: 30px;
+}
+.bl_footer_navItem a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.bl_footer_navItem a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform .4s;
+}
+.bl_footer_navItem a:hover::after {
+  transform: scale(1, 1);
+}
+.bl_footer_snsList{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.el_footer_snsItem{
+  width: 28px;
+  height: 28px;
+  margin-right: 30px;
+}
+.el_footer_snsItem:last-of-type{
+  margin-right: 0;
+}
+.bl_footer_small{
+  width: 100%;
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  color: #777;
+  text-align: center;
+  z-index: 1;
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* responsive タブレットサイズ
+/* ----------------------- */
+@media screen and (max-width:768px){
+/* ハンバーガーボタン */
+.ly_header_inner{
+  align-items: center;
+}
+.bl_header_nav{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.bl_header_navList{
+  display: block;
+  text-align: center;
+}
+.bl_btn_trigger{
+  display: block;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  z-index: 300;
+}
+.bl_bar{
+  height: 1px;
+  background-color: #302D39;
+  display: block;
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+}
+.barTop{
+  width: 38px;
+  top: 10px;
+}
+.barMid{
+  width: 30px;
+  top: 50%;
+}
+.barBottom{
+  width: 23px;
+  bottom: 10px;
+}
+
+/* 閉じるときにバツになる */
+.bl_btn_trigger.close .barTop{
+  transform: translate(-50%,11px) rotate(45deg);
+  transition: transform .5s;
+}
+.bl_btn_trigger.close .barMid{
+  opacity: 0;
+  transition: opacity .5s;
+}
+.bl_btn_trigger.close .barBottom{
+  width: 38px;
+  transform: translate(-50%,-9px) rotate(-45deg);
+  transition: transform .5s;
+}
+/* --------ここまで-------- */
+
+/* 開いたときの表示 */
+.bl_header_hamburgerMenu{
+  transform: translateX(400px);      
+  transition: .5s;    
+  width: 400px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 200;
+}
+.bl_header_hamburgerMenu.slide-in{      
+  transform: translateX(0);      
+  transition: .5s;     
+}
+/* --------ここまで-------- */
+
+/* 開いたときに後ろのページが暗くなる */
+.hamburgerMenu_bg.active{
+  display: block;
+  z-index: 1;
+}
+/* --------ここまで-------- */
+
+/* メニュー表示 */
+.bl_header_nav{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(255,255,255,.96);
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  padding: 0;
+}
+.bl_header_navList{
+  position: absolute;
+  top: 40%;
+  right: 40%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+}
+.bl_header_snsList{
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  padding: 0;
+  margin-top: 50px;
+}
+.bl_header-nav,.bl_header_navItem{
+  margin-right: 0;
+  margin-bottom: 60px;
+  font-size: 2rem;
+}
+.bl_header-nav,.el_header_snsItem{
+  margin-right: 30px;
+}
+body.noscroll{
+overflow: hidden;
+}
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* responsive スマホサイズ
+/* ----------------------- */
+@media screen and (max-width: 480px) {
+body{
+  font-size: 1.3rem;
+}
+.ly_header{
+  padding: 10px 3.5vw 0;
+  height: 50px;
+}
+.ttl_img{
+  max-width: 150px;
+}
+.ly_footer_ttl{
+  width: 200px;
+}
+/* btn要素 */
+.el_btn_pagetop{
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  max-width: 45px;
+}
+/* .el_btn_contact{
+  position: fixed;
+  bottom: 30px;
+  left: 10px;
+  max-width: 48px;
+} */
+/* --------ここまで-------- */
+
+/* ハンバーガーボタン */
+.bl_btn_trigger{
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  z-index: 300;
+}
+.bl_bar{
+  height: 1px;
+  background-color: #302D39;
+  display: block;
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+}
+.barTop{
+  width: 38px;
+  top: 10px;
+}
+.barMid{
+  width: 30px;
+  top: 50%;
+}
+.barBottom{
+  width: 23px;
+  bottom: 10px;
+}
+/* 閉じるときにバツになる */
+.bl_btn_trigger.close .barTop{
+  transform: translate(-50%,11px) rotate(45deg);
+  transition: transform .5s;
+}
+.bl_btn_trigger.close .barMid{
+  opacity: 0;
+  transition: opacity .5s;
+}
+.bl_btn_trigger.close .barBottom{
+  width: 38px;
+  transform: translate(-50%,-9px) rotate(-45deg);
+  transition: transform .5s;
+}
+.bl_btn_trigger.close{
+  margin-top: 20px;
+}
+/* --------ここまで-------- */
+
+/* 開いたときの表示 */
+.bl_header_hamburgerMenu{
+  width: 300px;
+  z-index: 200;
+}
+/* --------ここまで-------- */
+
+/* メニュー表示 */
+.bl_header_nav{
+  padding-left: 80px;
+}
+.bl_header_navList{
+  position: absolute;
+  top: 45%;
+  right: 40%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+}
+.bl_header_snsList{
+  position: absolute;
+  top: 55%;
+  right: 40%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  padding: 0;
+  margin-top: 100px;
+}
+.bl_header-nav,.bl_header_navItem{
+  margin-right: 0;
+  margin-bottom: 60px;
+  font-size: 2rem;
+}
+.bl_header-nav,.el_header_snsItem{
+  margin-right: 30px;
+}
+}

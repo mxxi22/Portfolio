@@ -1,0 +1,373 @@
+/* ----------------------- */
+/* base
+/* ----------------------- */
+body{
+  font-size: 1.8rem;
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* mv
+/* ----------------------- */
+.bl_mv_inner{
+  max-width: 1400px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+}
+.bl_mv_ttl{
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.bl_mv_img{
+  max-width: 590px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: fadeIn1 4s ease-out 0.1s 1 normal forwards;
+}
+@keyframes fadeIn1{
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* about
+/* ----------------------- */
+.bl_about{
+  max-width: 800px;
+  display: flex;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+/* Profile */
+.bl_profile_img{
+  max-width: 255px;
+  max-height: 255px;
+  margin-right: 55px;
+}
+.profile{
+  opacity: .5;
+  animation: fadeIn2 4s ease-out 0.1s 1 normal forwards;
+}
+@keyframes fadeIn2{
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+.bl_profile_name{
+  font-size: 3rem;
+  letter-spacing: 1.3rem;
+  margin-bottom: 40px;
+}
+.bl_profile_txt{
+  line-height: 2;
+}
+.profile{
+  align-items: center;
+}
+
+/* Characteristics */
+.bl_characteristics{
+  display: flex;
+  justify-content: center;
+}
+.bl_label_bg{
+  width: 310px;
+}
+.bl_label{
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #fff;
+  background-color:#857175;
+  height: 27px;
+  padding: 14px;
+}
+.bl_ttl{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.bl_ttl_block{
+  display: block;
+}
+.bl_card_item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.bl_card_item img{
+  max-width: 50px;
+  padding-right: 15px;
+}
+.strength{
+  margin-top: 50px;
+}
+/* --------ここまで-------- */
+
+/* Career */
+.bl_career_txt{
+  font-size: 1.6rem;
+}
+.bl_career_txtList li{
+  display: flex;
+  align-items: center;
+}
+.bl_career_txtDate{
+  width: 87px;
+  text-align: center;
+  margin-right: 20px;
+}
+.bl_career_txtDate.accent_bg{
+  line-height: 2;
+  font-weight: bold;
+  color: #fff;
+}
+.bl_career_txt p{
+  width: 350px;
+  padding: 10px 0 10px 20px;
+  line-height: 1.5;
+  position: relative;
+  border-left: 1px solid #333;
+}
+.bl_career_txt p::before{
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  transform: translateY(-50%);
+  background-color: #857175;
+  border-radius: 50%;
+}
+.bl_career_txt .latest::before{
+  background-color: #eb9718;
+}
+.accent_bg{
+  background-color: #eb9718;
+}
+.b_skills_txt{
+  display: flex;
+}
+/* --------ここまで-------- */
+
+/* Skills */
+.bl_skills_txt{
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin: 0 auto;
+  vertical-align: top;
+}
+.bl_skills_txtItem{
+  width: 80%;
+}
+.bl_skills_txtItem p{
+  text-align: left;
+  line-height: 2.5;
+  padding-bottom: 55px;
+}
+.skills_il{
+  display: block;
+  margin-bottom: 10px;
+  width: 80%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.skills_ph{
+  display: block;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.skills_fi{
+  display: block;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.skills_ht{
+  display: block;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.skills_cs{
+  display: block;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.skills_jq{
+  display: block;
+  margin-bottom: 10px;
+  width: 60%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.skills_li{
+  display: block;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.skills_xd{
+  display: block;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.skils_wo{
+  display: block;
+  margin-bottom: 10px;
+  width: 10%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.bl_skills_txtItem_percent p{
+  padding-top: 40px;
+}
+/* --------ここまで-------- */
+
+/* Interest */
+.bl_interest_txt{
+  max-width: 480px;
+}
+/* --------ここまで-------- */
+
+/* btn */
+.el_btn_view{
+  margin: 0 auto;
+  padding-bottom: 150px;
+  background-color: #FAFAFA;
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* responsive タブレットサイズ
+/* ----------------------- */
+@media screen and (max-width:768px){
+.bl_about{
+  display: block;
+  text-align: center;
+}
+.bl_label_bg{
+  margin: 0 auto; 
+  padding-bottom: 40px;
+}
+/* profile */
+.bl_profile_img{
+  margin: 0 auto;
+}
+.bl_profile_name{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.bl_profile_txt{
+  margin: 0 auto;
+  max-width: 400px;
+}
+.bl_profile_txt p{
+  display: inline-block;
+  text-align: left;
+}
+/* --------ここまで-------- */
+
+/* characteristics */
+.bl_characteristics_txt p{
+  display: inline-block;
+  text-align: left;
+}
+.bl_cardUnit ul{
+  display: inline-block;
+}
+.bl_card_item{
+  text-align: left;
+}
+/* --------ここまで-------- */
+
+/* career */
+.bl_career_txt{
+  max-width: 450px;
+  margin: 0 auto;
+}
+.bl_career_txt p{
+  text-align: left;
+}
+.bl_career_txtList{
+  display: inline-block;
+}
+/* --------ここまで-------- */
+
+/* interest */
+.bl_interest_txt{
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* responsive スマホサイズ
+/* ----------------------- */
+@media screen and (max-width: 480px) {
+p{
+  font-size: 1.6rem;
+}
+.bl_profile_name{
+  font-size: 2.5rem;
+}
+/* profile */
+.bl_profile_txt{
+  width: 300px;
+}
+/* --------ここまで-------- */
+
+/* career */
+.bl_career_txt{
+  margin: 0 auto;
+}
+.bl_career_txt p{
+  font-size: 1.2rem;
+  width: 150px;
+}
+.bl_career_txtDate{
+  font-size: 1.2rem;
+}
+.bl_skills_txt{
+  width: 80%;
+}
+.bl_skills_txtItem_percent p{
+  padding-top: 45px;
+}
+/* --------ここまで-------- */
+
+/* btn */
+.el_btn_view{
+  width: 190px;
+}
+}  
