@@ -11,7 +11,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  animation: fadeIn1 4s ease-out 0.1s 1 normal forwards;
+  animation: fadeIn1 4s ease-out 0s 1 normal forwards;
 }
 @keyframes fadeIn1{
   0% {opacity: 0}
@@ -221,7 +221,7 @@
 /* ----------------------- */
 /* responsive スマホサイズ
 /* ----------------------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
 .bl_ttl_txt{
   font-size: 1.8rem;
 }
@@ -305,5 +305,5 @@ font-size: 0.7rem;
   margin-left: 40px;
   padding-bottom: 150px;
   max-width: 190px;
-}  
+}
 }

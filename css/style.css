@@ -21,7 +21,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  animation: fadeIn1 4s ease-out 0.1s 1 normal forwards;
+  animation: fadeIn1 4s ease-out 0s 1 normal forwards;
 }
 @keyframes fadeIn1{
   0% {opacity: 0}
@@ -174,7 +174,7 @@ color: white;
 /* ----------------------- */
 /* responsive スマホサイズ
 /* ----------------------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
 .ttl_txt{
   font-size: 1.6rem;
   margin-left: 10px;
@@ -185,7 +185,7 @@ color: white;
 .bl_ttl_border{
   font-size: 1.4rem;
   margin-top: 5px;
-} 
+}
 /* works */
 .bl_card_works{
   max-width: 280px;
@@ -219,5 +219,5 @@ color: white;
 }
 .bl_card_about_img:nth-child(2n){
   margin-right: 0;
-}  
+}
 }

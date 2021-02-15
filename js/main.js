@@ -31,7 +31,7 @@ if( $(window).width() <= 768 ){
 
 /* スクロールするとトップに戻るボタンが表示される*/
 $(function() {
-  var topBtn = $('.el_btn_pagetop');    
+  var topBtn = $('.el_btn_pagetop');
   topBtn.hide();
   //スクロールが100に達したらボタン表示
   $(window).scroll(function () {

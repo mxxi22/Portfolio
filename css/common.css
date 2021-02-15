@@ -193,7 +193,7 @@ p{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  animation: fadeIn1 4s ease-out 0.1s 1 normal forwards;
+  animation: fadeIn1 4s ease-out 0s 1 normal forwards;
 }
 @keyframes fadeIn1{
   0% {opacity: 0}
@@ -334,8 +334,8 @@ p{
 
 /* 開いたときの表示 */
 .bl_header_hamburgerMenu{
-  transform: translateX(400px);      
-  transition: .5s;    
+  transform: translateX(400px);
+  transition: .5s;
   width: 400px;
   height: 100vh;
   position: fixed;
@@ -343,9 +343,9 @@ p{
   right: 0;
   z-index: 200;
 }
-.bl_header_hamburgerMenu.slide-in{      
-  transform: translateX(0);      
-  transition: .5s;     
+.bl_header_hamburgerMenu.slide-in{
+  transform: translateX(0);
+  transition: .5s;
 }
 /* --------ここまで-------- */
 
@@ -403,7 +403,7 @@ overflow: hidden;
 /* ----------------------- */
 /* responsive スマホサイズ
 /* ----------------------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
 body{
   font-size: 1.3rem;
 }
