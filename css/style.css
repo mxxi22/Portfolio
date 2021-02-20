@@ -124,8 +124,8 @@ color: white;
   margin-bottom: 20px;
 }
 .bl_card_about_img{
-  width: 170px;
-  height: 170px;
+  max-width: 170px;
+  max-height: 170px;
   margin-right: 35px;
   margin-bottom: 45px;
 }
@@ -137,8 +137,9 @@ color: white;
 
 /* ----------------------- */
 /* responsive タブレットサイズ
+※インスタ写真のレスポンシブのためにここだけ784px設定
 /* ----------------------- */
-@media screen and (max-width:768px){
+@media screen and (max-width:784px){
 /* works */
 .bl_cardUnit_works{
   margin: 0 10px;
@@ -206,8 +207,8 @@ color: white;
   width: 190px;
 }
 .bl_card_about_img{
-  width: 140px;
-  height: 140px;
+  max-width: 140px;
+  max-height: 140px;
   margin-right: 25px;
   margin-bottom: 35px;
 }
@@ -220,4 +221,22 @@ color: white;
 .bl_card_about_img:nth-child(2n){
   margin-right: 0;
 }
+}
+@media screen and (min-width: 470px)and (max-width: 580px){
+
+  .bl_card_about_img:nth-child(2n){
+    margin-right: 25px;
+  }
+  .bl_card_about_img:nth-child(3n){
+  margin-right: 35px;
+  }
+}
+@media screen and (max-width: 305px){
+.bl_card_about_img:nth-child(2n){
+  margin-right: 0;
+  }
+.bl_card_about_img{
+  max-width: 100px;
+  max-height: 100px;
+  }
 }

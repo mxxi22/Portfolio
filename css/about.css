@@ -1,10 +1,6 @@
 /* ----------------------- */
 /* base
 /* ----------------------- */
-body{
-  font-size: 1.8rem;
-}
-/* --------ここまで-------- */
 
 /* ----------------------- */
 /* mv
@@ -62,7 +58,7 @@ body{
 }
 
 .bl_profile_name{
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: 1.3rem;
   margin-bottom: 40px;
 }
@@ -173,6 +169,7 @@ body{
   text-align: left;
   line-height: 2.5;
   padding-bottom: 55px;
+  font-size: 1.4rem;
 }
 .skills_il{
   display: block;
@@ -248,12 +245,14 @@ body{
 }
 .bl_skills_txtItem_percent p{
   padding-top: 40px;
+  font-size: 1.4rem;
 }
 /* --------ここまで-------- */
 
 /* Interest */
 .bl_interest_txt{
   max-width: 480px;
+  font-size: 1.4rem;
 }
 /* --------ここまで-------- */
 
@@ -334,10 +333,10 @@ body{
 /* ----------------------- */
 @media screen and (max-width: 480px){
 p{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 .bl_profile_name{
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 /* profile */
 .bl_profile_txt{
