@@ -394,7 +394,7 @@ p{
 .bl_header_snsList{
   position: absolute;
   top: 50%;
-  right: 40%;
+  right: 12%;
   transform: translate(-50%,-50%);
   text-align: left;
   padding: 0;
@@ -522,8 +522,8 @@ body{
 }
 .bl_header_snsList{
   position: absolute;
-  top: 55%;
-  right: 40%;
+  top: 50%;
+  right: 10%;
   transform: translate(-50%,-50%);
   text-align: left;
   padding: 0;
