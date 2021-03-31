@@ -84,14 +84,6 @@ color: white;
   font-size: 1.2rem;
   columns: #777777;
 }
-.el_btn_view{
-  width: 202px;
-  height: 59px;
-  margin: 0 auto;
-}
-.btn_profile{
-  width: 240px;
-}
 /* --------ここまで-------- */
 
 /* ----------------------- */
@@ -122,6 +114,7 @@ color: white;
   justify-content: center;
   padding: 0;
   margin-bottom: 20px;
+  margin-top: 85px;
 }
 .bl_card_about_img{
   max-width: 170px;
@@ -192,9 +185,6 @@ color: white;
   max-width: 280px;
   margin-bottom: 40px;
 }
-.el_btn_view{
-  width: 160px;
-}
 /* about */
 .bl_about{
   padding-bottom: 80px;
@@ -202,9 +192,6 @@ color: white;
 .bl_about_txt{
   width: 80%;
   margin: 0 auto;
-}
-.btn_profile{
-  width: 190px;
 }
 .bl_card_about_img{
   max-width: 140px;
@@ -223,7 +210,6 @@ color: white;
 }
 }
 @media screen and (min-width: 470px)and (max-width: 580px){
-
   .bl_card_about_img:nth-child(2n){
     margin-right: 25px;
   }

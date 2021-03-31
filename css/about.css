@@ -1,7 +1,9 @@
 /* ----------------------- */
 /* base
 /* ----------------------- */
-
+body{
+  font-size: 1.6rem;
+}
 /* ----------------------- */
 /* mv
 /* ----------------------- */
@@ -35,47 +37,14 @@
 /* about
 /* ----------------------- */
 .bl_about{
-  max-width: 800px;
-  display: flex;
+  max-width: 760px;
   text-align: left;
   margin: 0 auto;
   margin-top: 100px;
-  margin-bottom: 120px;
-}
-/* Profile */
-.bl_profile_img{
-  max-width: 255px;
-  max-height: 255px;
-  margin-right: 55px;
-}
-.profile{
-  opacity: .5;
-  animation: fadeIn2 4s ease-out 0s 1 normal forwards;
-}
-@keyframes fadeIn2{
-  0% {opacity: 0}
-  100% {opacity: 1}
-}
-
-.bl_profile_name{
-  font-size: 2.5rem;
-  letter-spacing: 1.3rem;
-  margin-bottom: 40px;
-}
-.bl_profile_txt{
-  line-height: 2;
-}
-.profile{
-  align-items: center;
-}
-
-/* Characteristics */
-.bl_characteristics{
-  display: flex;
-  justify-content: center;
 }
 .bl_label_bg{
   width: 310px;
+  margin-bottom: 40px;
 }
 .bl_label{
   font-weight: bold;
@@ -83,31 +52,65 @@
   color: #fff;
   background-color:#857175;
   height: 27px;
-  padding: 14px;
+  padding: 11px 22px;
 }
-.bl_ttl{
-  font-weight: bold;
-  margin-bottom: 30px;
+
+/* Profile */
+.bl_profile_img{
+  max-width: 255px;
+  max-height: 255px;
+  margin-right: 55px;
 }
-.bl_ttl_block{
-  display: block;
-}
-.bl_card_item{
+.profile{
   display: flex;
+  opacity: .5;
+  animation: fadeIn2 4s ease-out 0s 1 normal forwards;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
-.bl_card_item img{
-  max-width: 50px;
-  padding-right: 15px;
+@keyframes fadeIn2{
+  0% {opacity: 0}
+  100% {opacity: 1}
 }
-.strength{
-  margin-top: 50px;
+.bl_profile_name{
+  font-size: 2.3rem;
+  letter-spacing: 1.3rem;
+  margin-bottom: 20px;
+}
+.bl_profile_txt{
+  line-height: 2;
+}
+/* .bl_border_270px{
+  max-width: 270px;
+  border: 1px solid #A88F98;
+  margin-bottom: 20px;
+} */
+.hashtag{
+  margin-top: 40px;
+}
+.hashtag_ttl{
+  margin-bottom: 15px;
+}
+.bl_label_rounded{
+  margin-bottom: 16px;
+  color: #fff;
+  background-color:#857175;
+  height: 10px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+.bl_hashtagList{
+  display: flex;
+}
+.bl_hashtagList_item{
+  margin-right: 20px;
 }
 /* --------ここまで-------- */
 
 /* Career */
-.bl_career_txt{
+/* .bl_career_txt{
   font-size: 1.6rem;
 }
 .bl_career_txtList li{
@@ -151,115 +154,69 @@
 }
 .b_skills_txt{
   display: flex;
-}
+} */
 /* --------ここまで-------- */
 
-/* Skills */
-.bl_skills_txt{
+/* Career */
+.bl_border_vertical{
+  width: 5px;
+  height: 90px;
+  background-color:#D2B03A;
+  margin-right: 40px;
+  margin-left: 30px;
+}
+.bl_border_vertical2021{
+  width: 5px;
+  height: 90px;
+  background-color:#D2B03A;
+  margin-right: 40px;
+  margin-left: 17px;
+}
+.bl_careerList_item{
   display: flex;
-  width: 400px;
-  justify-content: space-between;
-  margin: 0 auto;
-  vertical-align: top;
+  vertical-align: center;
+  align-items: center;
+  margin-bottom: 45px;
 }
-.bl_skills_txtItem{
-  width: 80%;
+.bl_career_ttl{
+  font-weight: bold;
 }
-.bl_skills_txtItem p{
+.bl_career_txt{
+  font-size: 1.3rem;
+  max-width: 600px;
   text-align: left;
-  line-height: 2.5;
-  padding-bottom: 55px;
-  font-size: 1.4rem;
 }
-.skills_il{
+.bl_career_txtList{
   display: block;
-  margin-bottom: 10px;
-  width: 80%;
-  height: 0;
-  content: "";
-  border-bottom: #857175 8px solid;
 }
-.skills_ph{
-  display: block;
-  margin-bottom: 10px;
-  width: 70%;
-  height: 0;
-  content: "";
-  border-bottom: #857175 8px solid;
-}
-.skills_fi{
-  display: block;
-  margin-bottom: 10px;
-  width: 90%;
-  height: 0;
-  content: "";
-  border-bottom: #857175 8px solid;
-}
-.skills_ht{
-  display: block;
-  margin-bottom: 10px;
-  width: 70%;
-  height: 0;
-  content: "";
-  border-bottom: #857175 8px solid;
-}
-.skills_cs{
-  display: block;
-  margin-bottom: 10px;
-  width: 70%;
-  height: 0;
-  content: "";
-  border-bottom: #857175 8px solid;
-}
-.skills_jq{
-  display: block;
-  margin-bottom: 10px;
-  width: 60%;
-  height: 0;
-  content: "";
-  border-bottom: #857175 8px solid;
-}
-.skills_li{
-  display: block;
-  margin-bottom: 10px;
-  width: 90%;
-  height: 0;
-  content: "";
-  border-bottom: #857175 8px solid;
-}
-.skills_xd{
-  display: block;
-  margin-bottom: 10px;
-  width: 50%;
-  height: 0;
-  content: "";
-  border-bottom: #857175 8px solid;
-}
-.skils_wo{
-  display: block;
-  margin-bottom: 10px;
-  width: 10%;
-  height: 0;
-  content: "";
-  border-bottom: #857175 8px solid;
-}
-.bl_skills_txtItem_percent p{
-  padding-top: 48px;
-  font-size: 1.4rem;
+.bl_career_date{
+  text-align: center;
 }
 /* --------ここまで-------- */
 
-/* Interest */
-.bl_interest_txt{
-  max-width: 480px;
-  font-size: 1.4rem;
+/* hobby */
+.bl_hobby_content{
+  display: flex;
 }
-/* --------ここまで-------- */
-
-/* btn */
-.el_btn_view{
-  margin: 0 auto;
-  padding-bottom: 150px;
+.bl_cardUnit_hobby{
+  max-width: 400px;
+  margin-bottom: 150px;
+}
+.bl_card_hobby_img{
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.bl_cardUnit_hobbyList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.bl_hobby_txt{
+  max-width: 400px;
+  margin-left: 20px;
 }
 /* --------ここまで-------- */
 
@@ -268,6 +225,7 @@
 /* ----------------------- */
 @media screen and (max-width:768px){
 .bl_about{
+  width: 80%;
   display: block;
   text-align: center;
 }
@@ -293,48 +251,51 @@
 }
 /* --------ここまで-------- */
 
-/* characteristics */
-.bl_characteristics_txt p{
-  display: inline-block;
-  text-align: left;
-}
-.bl_cardUnit ul{
-  display: inline-block;
-}
-.bl_card_item{
-  text-align: left;
-}
-/* --------ここまで-------- */
-
 /* career */
 .bl_career_txt{
   max-width: 450px;
   margin: 0 auto;
 }
-.bl_career_txt p{
-  text-align: left;
-}
-.bl_career_txtList{
-  display: inline-block;
+.bl_career{
+  margin: 0 auto;
 }
 /* --------ここまで-------- */
 
 /* interest */
 .bl_interest_txt{
-  width: 80%;
   margin: 0 auto;
   text-align: left;
 }
-}
 /* --------ここまで-------- */
 
+/* hobby */
+.hobby{
+  padding-bottom: 150px;
+}
+.bl_hobby_content{
+  display: block;
+  margin: 0 auto;
+}
+.bl_cardUnit_hobby{
+  max-width: 320px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  margin-bottom: 20px;
+}
+.bl_card_hobby_img:nth-child(2n){
+  margin-right: 0;
+}
+.bl_card_hobby_img:nth-child(4n){
+  margin-right: 0;
+}
+.bl_hobby_txt{
+  margin: 0 auto;
+}
+}
 /* ----------------------- */
 /* responsive スマホサイズ
 /* ----------------------- */
 @media screen and (max-width: 480px){
-p{
-  font-size: 1.4rem;
-}
 .bl_profile_name{
   font-size: 2rem;
 }
@@ -342,26 +303,43 @@ p{
 .bl_profile_txt{
   width: 300px;
 }
+.bl_hashtagList{
+  display: block;
+}
+.bl_hashtagList_item{
+  margin-bottom: 20px;
+}
+.hashtag_ttl{
+  margin-bottom: 20px;
+}
 /* --------ここまで-------- */
 
 /* career */
 .bl_career_txt{
+  font-size: 1.3rem;
+}
+.bl_careerList_item{
+  display: block;
+}
+.bl_border_vertical{
+  display: none;
+}
+.bl_border_vertical2021{
+  display: none;
+}
+.bl_border_horizontal{
+  max-width: 90px;
+  border: 2px solid #D2B03A;
+  align-items: center;
   margin: 0 auto;
-}
-.bl_career_txt p{
-  font-size: 1.2rem;
-  width: 150px;
-}
-.bl_career_txtDate{
-  font-size: 1.2rem;
-}
-.bl_skills_txt{
-  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 /* --------ここまで-------- */
 
-/* btn */
-.el_btn_view{
-  width: 190px;
+/* hobby */
+.bl_card_hobby_img{
+  max-width: 140px;
+  justify-content: space-between;
 }
 }

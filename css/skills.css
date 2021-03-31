@@ -1,0 +1,230 @@
+/* ----------------------- */
+/* base
+/* ----------------------- */
+body{
+  font-size: 1.6rem;
+}
+/* ----------------------- */
+/* mv
+/* ----------------------- */
+.bl_mv_inner{
+  height: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+}
+.bl_mv_ttl{
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.bl_mv_img{
+  max-width: 590px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: fadeIn1 4s ease-out 0s 1 normal forwards;
+}
+@keyframes fadeIn1{
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* skills
+/* ----------------------- */
+.bl_skills{
+  max-width: 760px;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-bottom: 90px;
+}
+.bl_label_bg{
+  width: 310px;
+  margin-bottom: 40px;
+}
+.bl_label{
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #fff;
+  background-color:#857175;
+  height: 27px;
+  padding: 14px;
+}
+/* --------ここまで-------- */
+
+/* strengths */
+.bl_strengthsList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.bl_strengthsList_item img{
+  max-width: 370px;
+  margin-bottom: 20px;
+}
+/* --------ここまで-------- */
+
+/* skill */
+.bl_skillsList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.bl_skillsList_item img{
+  max-width: 220px;
+}
+/* --------ここまで-------- */
+
+/* chart */
+.chart{
+  padding-bottom: 60px;
+}
+.bl_chart_txt{
+  display: flex;
+  max-width: 600px;
+  justify-content: space-between;
+  margin: 0 auto;
+  vertical-align: top;
+}
+.bl_chart_txtItem{
+  width: 80%;
+}
+.bl_chart_txtItem p{
+  text-align: left;
+  line-height: 2.5;
+  padding-bottom: 40px;
+  font-size: 1.6rem;
+}
+.chart_il{
+  display: block;
+  margin-bottom: 30px;
+  width: 80%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.chart_ph{
+  display: block;
+  margin-bottom: 30px;
+  width: 70%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.chart_fi{
+  display: block;
+  margin-bottom: 30px;
+  width: 90%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.chart_ht{
+  display: block;
+  margin-bottom: 30px;
+  width: 70%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.chart_cs{
+  display: block;
+  margin-bottom: 30px;
+  width: 70%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.chart_jq{
+  display: block;
+  margin-bottom: 30px;
+  width: 60%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.chart_li{
+  display: block;
+  margin-bottom: 30px;
+  width: 90%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.chart_xd{
+  display: block;
+  margin-bottom: 30px;
+  width: 50%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.chart_wo{
+  display: block;
+  margin-bottom: 30px;
+  width: 10%;
+  height: 0;
+  content: "";
+  border-bottom: #857175 8px solid;
+}
+.bl_chart_txtItem_percent p{
+  padding-bottom: 50px;
+  font-size: 1.6rem;
+}
+.percent_top{
+  padding-top: 30px;
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* responsive タブレットサイズ
+/* ----------------------- */
+@media screen and (max-width:768px){
+.bl_skills{
+  width: 80%;
+  display: block;
+  text-align: center;
+}
+.bl_label_bg{
+  margin: 0 auto; 
+  padding-bottom: 40px;
+}
+/* strengths */
+.bl_strengthsList{
+  justify-content: space-around;
+}
+/* --------ここまで-------- */
+
+/* skills */
+.bl_skillsList{
+  justify-content: space-around;
+}
+/* --------ここまで-------- */
+
+/* chart */
+.bl_chart_txt{
+  max-width: 500px;
+}
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* responsive スマホサイズ
+/* ----------------------- */
+@media screen and (max-width: 480px){
+/* skills */
+.bl_skillsList_item{
+  margin-bottom: 40px;
+}
+}
