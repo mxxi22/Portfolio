@@ -188,6 +188,7 @@ p{
 }
 .bl_mv_ttl{
   font-size: 2.5rem;
+  letter-spacing: .5rem;
   position: absolute;
   text-align: center;
   top: 50%;

@@ -37,7 +37,7 @@ body{
 /* about
 /* ----------------------- */
 .bl_about{
-  max-width: 760px;
+  max-width: 800px;
   text-align: left;
   margin: 0 auto;
   margin-top: 100px;
@@ -87,6 +87,8 @@ body{
 } */
 .hashtag{
   margin-top: 40px;
+  opacity: .5;
+  animation: fadeIn2 4s ease-out 0s 1 normal forwards;
 }
 .hashtag_ttl{
   margin-bottom: 15px;

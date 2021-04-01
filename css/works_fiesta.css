@@ -5,7 +5,7 @@
   height: 670px;
 }
 .bl_mv_img{
-  max-width: 900px;
+  max-width: 650px;
   position: absolute;
   text-align: center;
   top: 50%;
@@ -82,7 +82,7 @@
 .bl_subttl_small{
   font-size: 1.6rem;
   font-weight: bold;
-  margin: 40px 0 20px 0;
+  margin: 40px 0;
   color: #857175;
 }
 
@@ -116,18 +116,58 @@
 
 /* design */
 .bl_design_img{
-  margin-top: 40px;
+  max-width: 650px;
+  margin-bottom: 10px;
+  margin-left: 20px;
 }
+.font_preview{
+  margin-left: 100px;
+}
+.bl_font{
+  display: block;
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+.bl_font01{
+  display: flex;
+  margin-bottom: 20px;
+}
+.bl_font02{
+  display: flex;
+}
+.font_preview{
+  margin-left: 100px;
+  font-family: 'brandon-grotesque, sans-serif';
+  font-style: normal;
+  font-weight: 700;
+}
+.Roboto{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+}
+
 /* --------ここまで-------- */
 
 /* ----------------------- */
 /* works
 /* ----------------------- */
-.subttl_small_works{
-  margin-bottom: 15px;
+.bl_works_ttl{
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
-.bl_works_img_bg_black{
-  margin-top: 70px;
+.bl_works_txt{
+  margin-bottom: 50px;
+}
+.works_flex{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.bl_works_img{
+  max-width: 400px;
+  max-height: 2895px;
 }
 .el_btn_view{
   margin-top: 60px;
@@ -147,7 +187,7 @@
   font-size: 2.5rem;
 }
 .bl_mv_img{
-  max-width: 600px;
+  max-width: 500px;
 }
 .bl_main_ttl{
   margin-left: 60px;
@@ -155,14 +195,28 @@
 .works-info-list{
   word-break: break-all;
 }
+/* --------ここまで-------- */
 
+/* design */
+.bl_font{
+  font-size: 1.6rem;
+}
+.bl_design_img{
+  max-width: 400px;
+}
+/* --------ここまで-------- */
+
+/* works */
+.bl_works_img_responsive{
+  margin-left: 45px;
+}
 }
 /* --------ここまで-------- */
 
 /* ----------------------- */
 /* responsive スマホサイズ
 /* ----------------------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
 .bl_ttl_txt{
   font-size: 1.8rem;
 }
@@ -181,13 +235,19 @@ font-size: 0.7rem;
 .works-info-item{
   font-size: .8rem;
 }
+.bl_subttl{
+  font-size: 1.4rem;
+}
+.bl_subttl_small{
+  font-size: 1.2rem;
+}
 
 /* mv */
 .bl_mv_inner{
   height: 400px;
 }
 .bl_mv_img{
-  max-width: 350px;
+  max-width: 280px;
 }
 .bl_main_ttl{
   padding-top: 330px;
@@ -201,12 +261,27 @@ font-size: 0.7rem;
 }
 /* --------ここまで-------- */
 
+/* design */
+.bl_design_img{
+  margin: 0 auto;
+}
 .bl_subttl{
   font-size: 1.4rem;
 }
 .bl_subttl_small{
   font-size: 1.2rem;
 }
+.bl_font{
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+.font_preview{
+  margin: 0;
+  margin-left: 30px;
+}
+/* --------ここまで-------- */
+
+/* works */
 /* --------ここまで-------- */
 
 /* btn */
