@@ -95,25 +95,6 @@
 }
 /* --------ここまで-------- */
 
-/* idea */
-.bl_idea_img{
-  margin-bottom: 40px;
-}
-.keywords{
-  max-width: 760px;
-}
-/* --------ここまで-------- */
-
-/* concept */
-.subttl_small_concept{
-  margin-bottom: 20px;
-}
-.concept{
-  max-width: 760px;
-  margin-bottom: 10px;
-}
-/* --------ここまで-------- */
-
 /* design */
 .bl_design_img{
   max-width: 650px;
@@ -147,7 +128,6 @@
   font-style: normal;
   font-weight: bold;
 }
-
 /* --------ここまで-------- */
 
 /* ----------------------- */
@@ -166,8 +146,8 @@
   justify-content: center;
 }
 .bl_works_img{
-  max-width: 400px;
-  max-height: 2895px;
+  max-width: 760px;
+  max-height: 5500px;
 }
 .el_btn_view{
   margin-top: 60px;
@@ -205,11 +185,6 @@
   max-width: 400px;
 }
 /* --------ここまで-------- */
-
-/* works */
-.bl_works_img_responsive{
-  margin-left: 45px;
-}
 }
 /* --------ここまで-------- */
 
@@ -279,9 +254,6 @@ font-size: 0.7rem;
   margin: 0;
   margin-left: 30px;
 }
-/* --------ここまで-------- */
-
-/* works */
 /* --------ここまで-------- */
 
 /* btn */
