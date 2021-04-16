@@ -5,7 +5,7 @@
   height: 670px;
 }
 .bl_mv_img{
-  max-width: 500px;
+  max-width: 360px;
   position: absolute;
   text-align: center;
   top: 50%;
@@ -82,12 +82,14 @@
 .bl_subttl_small{
   font-size: 1.6rem;
   font-weight: bold;
-  margin: 40px 0 20px 0;
+  margin: 40px 0;
   color: #857175;
 }
+/* --------ここまで-------- */
+
 /* design */
 .bl_design_img{
-  max-width: 650px;
+  max-width: 300px;
   margin-bottom: 10px;
   margin-left: 20px;
 }
@@ -106,46 +108,29 @@
 .bl_font03{
   display: flex;
 }
+.Baskerville{
+  font-family: 'Baskerville';
+}
 .Noto{
-  font-family: 'Noto Sans CJK JP';
-  font-style: normal;
-  font-weight: 100;
-}
-.Toppan{
-  font-family: 'Toppan Bunkyu Midashi Gothic';
-  font-weight: bold;
-}
-.Hiragino{
-  font-family: 'Hiragino Kaku Gothic Std';
-  font-weight: lighter;
+  font-family: 'Noto Serif JP';
 }
 .font_preview{
-  margin-left: 50px;
+  margin-left: 100px;
 }
 /* --------ここまで-------- */
 
 /* ----------------------- */
 /* works
 /* ----------------------- */
-.bl_works_img01{
-  max-width: 350px;
-}
-.bl_works_img04{
-  max-width: 350px;
-}
-.img_size{
-  margin-top: 15px;
+.bl_works_ttl{
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 .bl_works_txt{
-  margin-top: 40px;
+  margin-bottom: 50px;
 }
-.works_flex{
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.bl_works03{
-  margin-top: 40px;
+.bl_works_img{
+  max-width: 600px;
 }
 .el_btn_view{
   margin-top: 60px;
@@ -165,10 +150,13 @@
   font-size: 2.5rem;
 }
 .bl_mv_img{
-  max-width: 450px;
+  max-width: 300px;
 }
 .bl_main_ttl{
   margin-left: 60px;
+}
+.works-info-list{
+  word-break: break-all;
 }
 /* --------ここまで-------- */
 
@@ -177,22 +165,10 @@
   font-size: 1.6rem;
 }
 .bl_design_img{
-  max-width: 400px;
+  max-width: 240px;
 }
 /* --------ここまで-------- */
-
-/* works */
-.works_flex{
-  display: block;
 }
-.bl_works01{
-  margin-bottom: 40px;
-}
-.bl_works04{
-  margin-bottom: 40px;
-}
-}
-/* --------ここまで-------- */
 
 /* ----------------------- */
 /* responsive スマホサイズ
@@ -216,13 +192,19 @@ font-size: 0.7rem;
 .works-info-item{
   font-size: .8rem;
 }
+.bl_subttl{
+  font-size: 1.4rem;
+}
+.bl_subttl_small{
+  font-size: 1.2rem;
+}
 
 /* mv */
 .bl_mv_inner{
   height: 400px;
 }
 .bl_mv_img{
-  max-width: 260px;
+  max-width: 170px;
 }
 .bl_main_ttl{
   padding-top: 330px;
@@ -239,6 +221,7 @@ font-size: 0.7rem;
 /* design */
 .bl_design_img{
   margin: 0 auto;
+  max-width: 180px;
 }
 .bl_subttl{
   font-size: 1.4rem;
@@ -247,37 +230,12 @@ font-size: 0.7rem;
   font-size: 1.2rem;
 }
 .bl_font{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: 0 auto;
-  justify-content: space-between;
-}
-.bl_font01{
-  display: block;
-  margin-bottom: 20px;
-}
-.bl_font02{
-  display: block;
-  margin-bottom: 20px;
-}
-.bl_font03{
-  display: block;
 }
 .font_preview{
   margin: 0;
-}
-/* --------ここまで-------- */
-
-/* works */
-.img_size{
-  margin-top: 15px;
-}
-.bl_works_txt{
-  margin-top: 40px;
-  font-size: 1rem;
-}
-.works_flex{
-  display: block;
-  justify-content: space-between;
+  margin-left: 30px;
 }
 /* --------ここまで-------- */
 

@@ -85,33 +85,6 @@
   margin: 40px 0;
   color: #857175;
 }
-
-/* competitor */
-.bl_competitor_img{
-  margin-bottom: 40px;
-}
-.bl_design_img.maindmap{
-  margin-bottom: 40px;
-}
-/* --------ここまで-------- */
-
-/* idea */
-.bl_idea_img{
-  margin-bottom: 40px;
-}
-.keywords{
-  max-width: 760px;
-}
-/* --------ここまで-------- */
-
-/* concept */
-.subttl_small_concept{
-  margin-bottom: 20px;
-}
-.concept{
-  max-width: 760px;
-  margin-bottom: 10px;
-}
 /* --------ここまで-------- */
 
 /* design */
