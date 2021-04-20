@@ -5,7 +5,7 @@
   height: 670px;
 }
 .bl_mv_img{
-  max-width: 650px;
+  max-width: 600px;
   position: absolute;
   text-align: center;
   top: 50%;
@@ -92,15 +92,28 @@
   margin-left: 20px;
 }
 .bl_font{
-  display: flex;
   font-size: 2rem;
   margin-left: 20px;
 }
-.font_preview{
-  margin-left: 100px;
+.bl_font01{
+  display: flex;
+  margin-bottom: 20px;
+}
+.bl_font02{
+  display: flex;
+  margin-bottom: 20px;
+}
+.Noto{
   font-family: 'Noto Sans CJK JP';
-  font-style: normal;
-  font-weight: 100;
+  font-style: bold;
+  font-weight: 500;
+}
+.Kozuka{
+  font-family: 'Kozuka Gothic Pr6N';
+  font-weight: lighter;
+}
+.font_preview{
+  margin-left: 50px;
 }
 /* --------ここまで-------- */
 
@@ -108,14 +121,15 @@
 /* works
 /* ----------------------- */
 .bl_works_img01{
-  max-width: 350px;
+  max-width: 360px;
 }
-.bl_works_img04{
-  max-width: 350px;
+.bl_works_img02{
+  max-width: 130px;
 }
-.bl_works_img05{
-  max-width: 350px;
+.bl_works_img03{
+  max-width: 600px;
 }
+
 .img_size{
   margin-top: 15px;
 }
@@ -124,13 +138,10 @@
 }
 .works_flex{
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: space-between;
 }
-.bl_works03{
-  margin-top: 40px;
-}
-.bl_works06{
+.bl_works02{
   margin-top: 40px;
 }
 .el_btn_view{
@@ -151,7 +162,7 @@
   font-size: 2.5rem;
 }
 .bl_mv_img{
-  max-width: 600px;
+  max-width: 500px;
 }
 .bl_main_ttl{
   margin-left: 60px;
@@ -174,10 +185,9 @@
 .bl_works01{
   margin-bottom: 40px;
 }
-.bl_works04{
+.bl_works02{
   margin-bottom: 40px;
 }
-
 }
 /* --------ここまで-------- */
 
@@ -206,7 +216,7 @@ font-size: 0.7rem;
   height: 400px;
 }
 .bl_mv_img{
-  max-width: 350px;
+  max-width: 300px;
 }
 .bl_main_ttl{
   padding-top: 330px;
@@ -235,8 +245,11 @@ font-size: 0.7rem;
   margin: 0 auto;
   justify-content: space-between;
 }
-.font_preview{
-  margin: 0;
+.bl_font01{
+  margin-bottom: 20px;
+}
+.bl_font02{
+  margin-bottom: 20px;
 }
 /* --------ここまで-------- */
 
@@ -246,6 +259,7 @@ font-size: 0.7rem;
 }
 .bl_works_txt{
   margin-top: 40px;
+  font-size: 1rem;
 }
 .works_flex{
   display: block;

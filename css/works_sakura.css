@@ -140,9 +140,9 @@
 /* ----------------------- */
 @media screen and (max-width:768px){
 .bl_works{
-  max-width: 500px;
-}
-/* mv */
+  max-width: 85%;
+}  
+  /* mv */
 .bl_ttl_txt{
   font-size: 2.5rem;
 }
@@ -168,9 +168,6 @@
 }
 .bl_ttl_subtxt{
 font-size: 0.7rem;
-}
-.bl_works{
-  max-width: 300px;
 }
 .bl_ttl{
   font-size: 1.6rem;
