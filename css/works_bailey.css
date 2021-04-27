@@ -5,7 +5,7 @@
   height: 670px;
 }
 .bl_mv_img{
-  max-width: 350px;
+  max-width: 340px;
   position: absolute;
   text-align: center;
   top: 50%;
@@ -105,11 +105,19 @@
   display: flex;
   margin-bottom: 20px;
 }
-.Baskerville{
-  font-family: 'Baskerville';
+.bl_font03{
+  display: flex;
 }
-.Noto{
-  font-family: 'Noto Serif JP';
+.BigCaslon{
+  font-family: 'Big Caslon';
+}
+.Avenir{
+  font-family: 'Avenir';
+}
+.AvenirNext{
+  font-family: 'Avenir Next';
+  font-style: italic;
+  font-weight: 600;
 }
 .font_preview{
   margin-left: 100px;
@@ -127,7 +135,14 @@
   margin-bottom: 50px;
 }
 .bl_works_img{
-  max-width: 600px;
+  max-width: 760px;
+  margin-bottom: 10px;
+}
+.front{
+  max-width: 360px;
+}
+.back{
+  max-width: 360px;
 }
 .el_btn_view{
   margin-top: 60px;
