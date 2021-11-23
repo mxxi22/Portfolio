@@ -43,8 +43,8 @@ body{
   margin-top: 100px;
 }
 .bl_label_bg{
-  width: 310px;
   margin-bottom: 40px;
+  text-align: center;
 }
 .bl_label{
   font-weight: bold;
