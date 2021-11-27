@@ -1,0 +1,215 @@
+/* ----------------------- */
+/* mv
+/* ----------------------- */
+.bl_mv_inner{
+  height: 670px;
+}
+.bl_mv_img{
+  max-width: 900px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: fadeIn1 4s ease-out 0s 1 normal forwards;
+}
+@keyframes fadeIn1{
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+.bl_main_ttl{
+  margin-left: 100px;
+  padding-top: 570px;
+}
+.bl_ttl_txt{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #857175;
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* overview
+/* ----------------------- */
+.bl_works{
+  max-width: 760px;
+  margin: 0 auto;
+}
+.bl_ttl{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  color: #857175;
+}
+.bl_ttl_en{
+  font-size: 1.2rem;
+  color: #857175;
+}
+.bl_ttl::before{
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 6px;
+  background-color:#857175;
+  vertical-align: -3px;
+}
+.bl_txt{
+  margin-bottom: 20px;
+}
+.works-info-list{
+  padding: 24px;
+  background-color: #ffffff;
+  border: 2px solid #A88F98;
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* process
+/* ----------------------- */
+.bl_subttl{
+  margin-top: 90px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #857175;
+}
+.bl_border{
+  width: 100%;
+  border: 1px solid #A88F98;
+  margin-top: 6px;
+  margin-bottom: 40px;
+}
+.bl_subttl_small{
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 40px 0 20px 0;
+  color: #857175;
+}
+
+/* competitor */
+.bl_competitor_img{
+  margin-bottom: 40px;
+}
+.bl_design_img.maindmap{
+  margin-bottom: 40px;
+}
+/* --------ここまで-------- */
+
+/* idea */
+.bl_idea_img{
+  margin-bottom: 40px;
+}
+.keywords{
+  max-width: 760px;
+}
+/* --------ここまで-------- */
+
+/* concept */
+.subttl_small_concept{
+  margin-bottom: 20px;
+}
+.concept{
+  max-width: 760px;
+  margin-bottom: 10px;
+}
+/* --------ここまで-------- */
+
+/* design */
+.bl_design_img{
+  margin-top: 40px;
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* works
+/* ----------------------- */
+.subttl_small_works{
+  margin-bottom: 15px;
+}
+.bl_works_img_bg_black{
+  margin-top: 70px;
+}
+.el_btn_view{
+  margin-top: 60px;
+  padding-bottom: 150px;
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* responsive タブレットサイズ
+/* ----------------------- */
+@media screen and (max-width:768px){
+.bl_works{
+  max-width: 85%;
+}
+/* mv */
+.bl_ttl_txt{
+  font-size: 2.5rem;
+}
+.bl_mv_img{
+  max-width: 600px;
+}
+.bl_main_ttl{
+  margin-left: 60px;
+}
+.works-info-list{
+  word-break: break-all;
+}
+
+}
+/* --------ここまで-------- */
+
+/* ----------------------- */
+/* responsive スマホサイズ
+/* ----------------------- */
+@media screen and (max-width: 480px) {
+.bl_ttl_txt{
+  font-size: 1.8rem;
+}
+.bl_ttl_subtxt{
+font-size: 0.7rem;
+}
+.bl_ttl{
+  font-size: 1.6rem;
+}
+.works-info-list{
+  word-break: break-all;
+}
+.works-info-item{
+  font-size: .8rem;
+}
+
+/* mv */
+.bl_mv_inner{
+  height: 400px;
+}
+.bl_mv_img{
+  max-width: 350px;
+}
+.bl_main_ttl{
+  padding-top: 330px;
+  margin-left: 30px;
+}
+/* --------ここまで-------- */
+
+/* overview */
+.bl_txt{
+  font-size: 1rem;
+}
+/* --------ここまで-------- */
+
+.bl_subttl{
+  font-size: 1.4rem;
+}
+.bl_subttl_small{
+  font-size: 1.2rem;
+}
+/* --------ここまで-------- */
+
+/* btn */
+.el_btn_view{
+  margin-top: 60px;
+  padding-bottom: 150px;
+  max-width: 190px;
+}
+}
