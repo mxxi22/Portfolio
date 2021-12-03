@@ -420,7 +420,7 @@ overflow: hidden;
 /* ----------------------- */
 @media screen and (max-width: 480px){
 body{
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .ly_header{
   padding: 10px 3.5vw 0;

@@ -5,7 +5,7 @@
   height: 670px;
 }
 .bl_mv_img{
-  max-width: 340px;
+  max-width:680px;
   position: absolute;
   text-align: center;
   top: 50%;
@@ -82,14 +82,12 @@
 .bl_subttl_small{
   font-size: 1.6rem;
   font-weight: bold;
-  margin: 40px 0;
+  margin: 40px 0 20px 0;
   color: #857175;
 }
-/* --------ここまで-------- */
-
 /* design */
 .bl_design_img{
-  max-width: 300px;
+  max-width: 650px;
   margin-bottom: 10px;
   margin-left: 20px;
 }
@@ -105,44 +103,31 @@
   display: flex;
   margin-bottom: 20px;
 }
-.bl_font03{
-  display: flex;
+.Noto{
+  font-family: 'Noto Sans CJK JP';
+  font-style: bold;
+  font-weight: 500;
 }
-.BigCaslon{
-  font-family: 'Big Caslon';
-}
-.Avenir{
-  font-family: 'Avenir';
-}
-.AvenirNext{
-  font-family: 'Avenir Next';
-  font-style: italic;
-  font-weight: 600;
+.Kozuka{
+  font-family: 'Kozuka Gothic Pr6N';
+  font-weight: lighter;
 }
 .font_preview{
-  margin-left: 100px;
+  margin-left: 50px;
 }
 /* --------ここまで-------- */
 
 /* ----------------------- */
 /* works
 /* ----------------------- */
-.bl_works_ttl{
-  margin-top: 50px;
-  margin-bottom: 20px;
+.bl_works_img{
+  max-width: 700px;
+}
+.img_size{
+  margin-top: 15px;
 }
 .bl_works_txt{
-  margin-bottom: 50px;
-}
-.bl_works_img{
-  max-width: 760px;
-  margin-bottom: 10px;
-}
-.front{
-  max-width: 360px;
-}
-.back{
-  max-width: 360px;
+  margin-top: 40px;
 }
 .el_btn_view{
   margin-top: 60px;
@@ -156,19 +141,16 @@
 @media screen and (max-width:768px){
 .bl_works{
   max-width: 85%;
-}  
+}
 /* mv */
 .bl_ttl_txt{
   font-size: 2.5rem;
 }
 .bl_mv_img{
-  max-width: 300px;
+  max-width: 600px;
 }
 .bl_main_ttl{
   margin-left: 60px;
-}
-.works-info-list{
-  word-break: break-all;
 }
 /* --------ここまで-------- */
 
@@ -177,10 +159,16 @@
   font-size: 1.6rem;
 }
 .bl_design_img{
-  max-width: 240px;
+  max-width: 400px;
 }
 /* --------ここまで-------- */
+
+/* works */
+.bl_works{
+  margin-bottom: 40px;
 }
+}
+/* --------ここまで-------- */
 
 /* ----------------------- */
 /* responsive スマホサイズ
@@ -201,19 +189,13 @@ font-size: 0.7rem;
 .works-info-item{
   font-size: .8rem;
 }
-.bl_subttl{
-  font-size: 1.4rem;
-}
-.bl_subttl_small{
-  font-size: 1.2rem;
-}
 
 /* mv */
 .bl_mv_inner{
   height: 400px;
 }
 .bl_mv_img{
-  max-width: 170px;
+  max-width: 300px;
 }
 .bl_main_ttl{
   padding-top: 330px;
@@ -230,7 +212,6 @@ font-size: 0.7rem;
 /* design */
 .bl_design_img{
   margin: 0 auto;
-  max-width: 180px;
 }
 .bl_subttl{
   font-size: 1.4rem;
@@ -241,10 +222,26 @@ font-size: 0.7rem;
 .bl_font{
   font-size: 1.2rem;
   margin: 0 auto;
+  justify-content: space-between;
 }
-.font_preview{
-  margin: 0;
-  margin-left: 30px;
+.bl_font01{
+  margin-bottom: 20px;
+}
+.bl_font02{
+  margin-bottom: 20px;
+}
+/* --------ここまで-------- */
+
+/* works */
+.bl_works{
+  max-width: 90%;
+}
+.img_size{
+  margin-top: 15px;
+}
+.bl_works_txt{
+  margin-top: 40px;
+  font-size: 1rem;
 }
 /* --------ここまで-------- */
 
